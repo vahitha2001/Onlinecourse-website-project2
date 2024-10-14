@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(uploadimg/regpic.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.form{
+    width: 220px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+h2{
+    width: 200px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgba(202, 48, 48, 0.863);
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+input{
+    width: 220px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid rgba(202, 48, 48, 0.863);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: rgba(202, 48, 48, 0.863);
+    font-family: arial;
+}
+
+.login{
+    width: 220px;
+    height: 40px;
+    background: rgba(202, 48, 48, 0.863);
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.login:hover{
+    background: rgba(107, 3, 3, 0.863);
+    color: rgba(202, 48, 48, 0.863);
+}
+
+.login a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.noacc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.noacc a{
+    text-decoration: none;
+    color: rgba(202, 48, 48, 0.863);
+}
+
+.lginwth{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.icons a{
+    text-decoration: none;
+}
+
+ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+ion-icon:hover{
+    color: rgba(202, 48, 48, 0.863);
+}
